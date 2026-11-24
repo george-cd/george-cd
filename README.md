@@ -9,7 +9,7 @@ From the Linux kernel and the network to the database, the business logic and th
 **Systems I've built**, independently and in my own time (built and tested, now moving to production servers; source code private, developed for commercial use). The first versions of the trading platform, the UI framework, the CRM and the client portal were presented to IronFX; the others followed along the way:
 
 - **Trading platform** · own engine instead of MetaTrader, web and mobile apps (iOS & Android), dealing desk, liquidity provider connectivity · Go, JavaScript, React · [showcase](https://george-cd.github.io/go-webtrader-showcase/)
-- **AI-native broker CRM, the CRM you build by talking to it** · describe a module, an access rule, a report or a compliance check in plain words; a self-hosted AI drafts it and the team approves it. Plus KYC, AML, partner programs, a white-label client portal and mobile apps · Go, PostgreSQL
+- **AI-native broker CRM, the CRM you build by talking to it** · describe a module, an access rule, a report or a compliance check in plain words; the AI drafts it, measures the impact, and a person approves it. One sentence becomes a ready role with its limits and access windows. Plus KYC, AML, partner programs, a white-label client portal and mobile apps · Go, PostgreSQL
 - **Payment orchestration hub** · routing and fallbacks, reconciliation, new providers without new code · Go, PostgreSQL
 - **Real-time broadcast server** · live data to many thousands of users, bot and account-farm detection · C++, Linux
 - **Multi-layer security platform** · from the network card to the application, its own model per customer · C++, Go, Linux kernel
