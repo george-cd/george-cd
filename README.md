@@ -15,7 +15,7 @@ From the Linux kernel and the network to the trading engine, the database, the b
 - **Real-time broadcast server** · live data to many thousands of users, bot and account-farm detection, client libraries in C++, Python, Go and JavaScript · C++, Linux
 - **Multi-layer security platform** · from the network card to the application: AI-bot and scraper detection, honeypots, fraud signals, its own model per customer, threats mapped to MITRE ATT&CK · C++, Go, Linux kernel
 - **UI framework** for all-day web applications · Go, JavaScript · [showcase](https://george-cd.github.io/customframework-showcase/)
-- **Pen-test and hardening toolkit** · 180+ attacks and checks run against every system before it goes live · Python
+- **Pen-test and hardening toolkit** · 180+ attacks and checks run against every system before it goes live: Python engine and checks, low-level attacks in C (fast port scan, connection exhaustion, slow-header, HTTP/2 Rapid Reset), coverage-guided fuzzers in C++ and Go with AddressSanitizer, and a read-only Linux server audit · Python, C, C++, Go
 
 **1,700+ automated tests** across these systems · **200+ payment provider integrations** in my career.
 
